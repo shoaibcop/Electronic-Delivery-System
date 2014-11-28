@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Route packets</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi"/>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> 
+        <script src="http://code.jquery.com/jquery-latest.js"></script>   
+    </head>
+    <body>
+        <div data-role="page" id="index" data-theme="b">
+            <div data-role="header">
+                <h3>Route packets</h3>
+                <a href="menu.html" data-icon="home" data-transition="pop">Home</a>
+            </div>
+
+            <div data-role="content">
+            
+            
+            
+                    <button data-role="button" data-split-icon="alert" data-theme="b">Click here to Route Packets</button>
+
+      <p style="display: none"><h3 style="display: none"><strong>RECIEVING PACKETS FROM SERVER......</strong></h3></p>
+       <p style="display: none"><strong>◙ Recieved Barcode : : 0938409984</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938402984</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409909</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409910</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409911</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409912</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409913</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409914</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409915</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409916</strong></p>
+     <p style="display: none"><strong>◙ Recieved Barcode : : 0938409917</strong></p><br>
+     
+   
+     
+       <!--<div style="display: none" id="e" align="center" data-role="button" onClick="popfunction()">OK</div>-->
+       
+       <div id="e" style="display: none"; "border:thin; border-bottom-color:#AAA8A8"; data-role="controlgroup" data-type="horizontal" align="center" data-mini="true">
+  
+    <a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="gear" data-theme="a">To Another Hub</a>
+    <a href="assing.html" data-role="button" data-inline="true" data-transition="slideup" data-icon="gear" data-theme="a">To Delivery</a>
+    
+</div>
+<script>
+
+
+
+    $("button").click(function () {
+    
+	$("p").show(5000);
+	$("h3").show(200);
+	$("#e").show(7000);
+    });
+	
+    </script>
+    <script>
+	function popfunction(){
+		alert('11 Packets recieved sucessfully to your HUB');
+		window.open('menu.html');
+		
+	}
+	</script>
+            
+            
+           
+<div data-role="popup" id="popupMenu" data-theme="d">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
+            <li data-role="divider" data-theme="e">Select HUB</li>
+      <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L1</a> </li>
+      <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L2 </a> </li>
+            <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L4</a> </li>
+            <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L5</a> </li>
+            <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L6</a> </li>
+            <li><a  href="#both" data-rel="popup" data-inline="true" data-mini="true" data-transition="slidedown">HUB L7</a> </li>
+      
+        </ul>
+</div>
+
+      <div id="both" data-role="popup" data-overlay-theme="b" data-theme="a" class="ui-content" data-mini="true">
+   <a href="assing.html" data-role="button" data-icon="alert" data-transition="slidedown">Packet Routed Sucessfully</a>
+    <a href="menu.html" data-role="button" data-icon="back" data-transition="slidedown">Go back</a>
+</div>     
+            <!--- Code Practice basic POP UP CODE!!!
+            
+            
+            <a href="#popupBasic" data-rel="popup" data-role="button" data-inline="true" data-transition="pop">Basic Popup</a>
+<div data-role="popup" id="popupBasic">
+    <p>This is a completely basic popup, no options set.</p>
+</div>
+            
+            
+            
+            
+              --->
+            
+                         
+                        </div>
+                        
+                        <div data-role="footer" data-position="fixed">
+                        <h1></h1></div>
+                    </div>    
+                </body>
+            </html>
