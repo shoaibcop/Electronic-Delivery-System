@@ -6,14 +6,14 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Electronic Delivery System</name>
+    <name>EDS</name>
 
     <description>
-        Delivery & pickups is a demo application .
+        Electronic Delivery System.
     </description>
 
-    <author href="shoaibcop@gmail.com" email="shoaibcop@gmail.com">
-        Shoaib
+    <author href="http://phonegap.com" email="support@phonegap.com">
+       Shoaib
     </author>
 
     <!--
